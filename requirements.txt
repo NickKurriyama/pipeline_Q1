@@ -1,0 +1,8 @@
+torch>=2.0
+numpy>=1.24
+matplotlib>=3.6
+pytest>=7.0
+# real-data / GPU extras (not needed for the CPU demos):
+# h5py>=3.8      # DSEC loader
+# gsplat>=1.0    # CUDA rasterizer backend
+# lpips>=0.1.4   # perceptual metric for the paper eval
